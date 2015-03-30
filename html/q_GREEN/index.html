@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- BASE -->
+		<title>QUICKLOAN</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=520, user-scalable=no">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		
+		<!-- CSS -->
+		<link href="css/normalize.css" type="text/css" rel="stylesheet"/>
+		<link href="css/index.css" type="text/css" rel="stylesheet"/>
+		<link href="css/parallax.css" type="text/css" rel="stylesheet"/>
+		<link href="css/mobile-reset.css" type="text/css" rel="stylesheet"/>
+		<link href="css/mobile.css" type="text/css" rel="stylesheet"/>
+		<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- JS -->
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="index_videolb/swfobject.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<div class="cbp-fbscroller">
+			<header class="wraper head">
+				<div class="mask" style="opacity: 0.5; margin-top: -20px;"></div>
+				<section class="head-els">
+					<div class="logo" onclick="$('.menu li a').first().click();">
+						<img src="img/logo.png" alt="">
+						quickloan
+					</div>
+					<ul class="menu js-menu h-pc">
+						<li style="display: none;"><a href="#intro" class="selected">intro</a></li>
+						<li><a href="#intro">home</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#get">how to get / return</a></li>
+						<li><a href="#loan">get a loan</a></li>
+						<li><a href="#map">contacts</a></li>
+					</ul>
+					<div class="mbl-menu js-mbl-button" id="mbl-button">
+						<div class="mbl_menu_el"></div>
+						<div class="mbl_menu_el"></div>
+						<div class="mbl_menu_el"></div>
+					</div>
+					<ul class="mbl_menu_cont mbl-menu js-mbl-menu">
+							<li><a href="#intro">home</a></li>
+							<li><a href="#services">services</a></li>
+							<li><a href="#get">how to get / return</a></li>
+							<li><a href="#loan">get a loan</a></li>
+							<li><a href="#map">contacts</a></li>
+					</ul>
+					<div style="clear: both;"></div>
+				</section>
+			</header>
+
+
+			<section class="wraper bg-raw  fbscroll_item cbp-so-scroller" id="intro">
+					<article class="cont cbp-so-section">
+						<div class="intro_h">
+							<h1 class="cbp-so-side cbp-so-side-left">PRODUCT SITE <br>THAT INSPIRES</h1>
+							<h3 class="special">Get Your Loan Easy as One, Two, Three...</h3>
+							<div class="intro_links">
+								<a class="voverlay" href="http://www.youtube.com/v/qb1xc1RjrxQ?autoplay=1&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer">
+									<div class="arrow_blue">
+										<div class="arrow_right"></div>
+									</div>
+								</a>
+									<script src="index_videolb/jquery.tools.min.js" type="text/javascript"></script>
+									<script src="index_videolb/videolightbox.js" type="text/javascript"></script>
+								<h3 class="ilink">WATCH VIDEO</h3>
+								<div class="icon_white">
+									<img src="img/pdf.png" alt="">
+								</div>
+								<h3 class="ilink">SPECIAL LICENSE</h3>
+							</div>
+						</div>
+						<div class="intro_block">
+							<h1>HOW MUCH?</h1>
+							<h3 class="special">Quick loan in 15 minutes!</h3>
+							<div class="polosochka_3"></div>
+							<div class="amount-cont js-loader-line-init">
+								<div class="amount">
+									<div class="minus"></div>
+									<div class="load-line">
+										<div class="load-inner-line"></div>
+									</div>
+									<div class="plus"></div>
+								</div>
+								<input class="input-amount" type="text" value="" data-maxval="400" data-valstep="50" data-round="10">
+								<div class="amount-message">
+									<span class="amount-message-main">How much would you like?</span><br>
+									<span class="amount-message-sub">Up to $400</span>
+								</div>
+							</div>
+							<div class="amount-cont js-loader-line-init">
+								<div class="amount">
+									<div class="minus"></div>
+									<div class="load-line">
+										<div class="load-inner-line"></div>
+									</div>
+									<div class="plus"></div>
+								</div>
+								<input class="input-amount" type="text" value="" data-maxval="30" data-valstep="1" data-round="0">
+								<div class="amount-message">
+									<span class="amount-message-main">How much would you like?</span><br>
+									<span class="amount-message-sub">Up to $400</span>
+								</div>
+							</div>
+							<div class="trial"><a href="#loan" >Get your loan now</a></div>
+						</div>
+					</article>
+			</section>
+			
+			<div class="diagonal1"></div>
+
+			<section class="wraper_bg-bright cbp-so-scroller" id="services">
+
+					<h1><span>services</span></h1>
+					<div class="polosochka2"></div>
+					<h3>We are ready to offer you several types of loans</h3>
+
+					<div class="services_cont">
+						<div class="services_cont_slider cbp-so-section">
+							<div class="service_l cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_1.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>Having trouble?</h2>
+								<p>Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home or office repairs, a family holiday.</p>
+							</div>
+							<div class="service_r cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_2.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>Consumer credit</h2>
+								<p> Loan against your vehicle - the fastest and most convenient solution if you do not have sufficient official earnings.</p>
+							</div>
+							<div class="service_l cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_3.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>Directly to your card</h2>
+								<p>Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home or office repairs, a family holiday.</p>
+							</div>
+							<div class="service_r cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_4.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>Urgent loan need</h2>
+								<p> Loan against your vehicle - the fastest and most convenient solution if you do not have sufficient official earnings.</p>
+							</div>
+							<div class="service_l cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_5.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>Where ever you are</h2>
+								<p>Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home or office repairs, a family holiday.</p>
+							</div>
+							<div class="service_r cbp-so-side cbp-so-side-left">
+								<div class="super-circle">
+									<img src="img/service_6.png" alt="">
+									<div class="super-circle1">
+
+									</div>
+									<div class="super-circle2">
+									</div>
+								</div>
+								<h2>It’s Fast and Secure</h2>
+								<p> Loan against your vehicle - the fastest and most convenient solution if you do not have sufficient official earnings.</p>
+							</div>
+						</div>
+					</div>
+
+					<section class="paging paging-main mbl-paging" id="service_paging">
+						<div class="dot selected"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+					</section>
+
+					<div class="getaloan-cont cbp-so-section">
+						<p class="p_bottom cbp-so-side cbp-so-side-bottom">We have already reviewed</p>
+						<div class="counters cbp-so-side cbp-so-side-bottom" id="counter-1" data-countto="2">0</div>
+						<div class="counters cbp-so-side cbp-so-side-bottom" id="counter-2" data-countto="5">0</div>
+						<div class="counters cbp-so-side cbp-so-side-bottom" id="counter-3" data-countto="7">0</div>
+						<div class="counters cbp-so-side cbp-so-side-bottom" id="counter-4" data-countto="9">0</div>
+						<div class="trial cbp-so-side cbp-so-side-bottom"><a href="#loan" >Get a loan</a></div>
+					</div>
+			</section>
+			
+			<div class="diagonal2"></div>
+			
+			<section class="wraper bg-raw  fbscroll_item cbp-so-scroller" id="get">
+				<h1>HOW TO GET & RETURN</h1>
+				<div class="polosochka2"></div>
+				<h3>A bit of story what we do and what we offer</h3>
+				
+				<div class="get_cont cbp-so-section">
+					<div class="get_left cbp-so-side cbp-so-side-top">
+						<h2>Eligible Borrower:</h2>
+						<p>Credits are awarded only to people over 21 years old. </p>
+						<p>Credits are awarded only to people over 21 years old. Credits are awarded only to people over 21 years old.</p>
+						<p>Credits are awarded only to people. </p>
+						<p>Credits are awarded only to people over 21 years old. </p>
+						<p>Credits are awarded only to people over 21. </p>
+						
+						<div class="note cbp-so-side cbp-so-side-top">
+							<p>Sed ut perspiciatis unde omnis iste natus error <br>sit voluptatem accusantium doloremque <br>laudantium, totam rem aperiam, eaque<br> ipsa quae ab illo inventore <br>veritatis et quasi architecto beatae. </p>
+							<div class="trial"><a href="#loan" >Get your loan now</a></div>
+						</div>
+					</div>
+					<div class="get_right cbp-so-side cbp-so-side-top">
+						<h2>Before you get started</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<h2>Frequently asked questions</h2>
+						<div class="js-animated-list cbp-so-side cbp-so-side-top">
+							<div class="animated-list-item">
+								<div class="animated-list-title">Can i have multiple loans?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+							<div class="animated-list-item">
+								<div class="animated-list-title">What amount of money can I have?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+							<div class="animated-list-item">
+								<div class="animated-list-title">Already taken a loan at a bank?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+							<div class="animated-list-item">
+								<div class="animated-list-title">How soon will I know the dicision to grant the loan?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+							<div class="animated-list-item">
+								<div class="animated-list-title">Why was I refused?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+							<div class="animated-list-item">
+								<div class="animated-list-title">Do you need to get a loan or surety bail?</div>
+								<div class="animated-list-body">Consumer credit from Quick Loan - the best solution for you if you are planning to shop for home </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>	
+
+			<div class="diagonal1"></div>
+			
+			<section class="wraper_bg-bright wraper_bg-bright-search t-clear cbp-so-scroller" id="loan">
+				<h1><span>GET LOAN!</span></h1>
+				<div class="polosochka2"></div>
+				<h3>Fill out an application for a loan!</h3>
+				<div class="loan_l cbp-so-section">
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Name & Surname:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Personal Code:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Actual Address:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Declaring Address:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Desired Loan Amount:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Desired Term of the Loan:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Number of Dependents:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>E-mail:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Phone:</p>
+						<input class="l_form1">
+					</div>
+				</div>
+				<div class="loan_m cbp-so-section">
+					<div class="cbp-so-side cbp-so-side-top">
+						<p class="cbp-so-side cbp-so-side-top">The Purpose of the Loan:</p>
+						<input class="l_form1 cbp-so-side cbp-so-side-top">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p class="cbp-so-side cbp-so-side-top">Your Position:</p>
+						<input class="l_form1 cbp-so-side cbp-so-side-top">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p class="cbp-so-side cbp-so-side-top">Official Revenues:</p>
+						<input class="l_form1 cbp-so-side cbp-so-side-top">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p class="cbp-so-side cbp-so-side-top">Informal Income:</p>
+						<input class="l_form1">
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+					<p>Credit history:</p>
+						<select class="l_form1">
+							<option>Damaged</option>
+							<option>Clean</option>
+						</select>
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>Why is damaged:</p>
+						<textarea></textarea>
+						<p class="special">(shortly describe the problem with other lenders or institutions and central banks, financial service providers)</p>
+					</div>
+					<div class="cbp-so-side cbp-so-side-top">
+						<p>How did you hear about us?</p>
+						<input class="l_form1">
+					</div>
+				</div>
+				<div class="load_after_cont mobile t-clear">
+					<div class="loan_after trial"><a>LEAVE LOAN REQUEST</a></div>
+				</div>
+				<div class="loan_r cbp-so-section">
+					<img src="img/loan.png" class="loan_r_image cbp-so-side cbp-so-side-top" alt="">
+					<div class="div cbp-so-side cbp-so-side-top">
+						<p class="special">until 30.08.2013 you return: <span>$230</span></p>
+						<h1><span>$200 TOTAL</span></h1>
+						<a href="">Need more?</a>
+					</div>
+					<div class="step first">
+						<div class="img_border2"><h2>1</h2></div>
+						<div class="vertical"></div>
+						<h2>Get a Quote</h2>
+						<p>You need to fill out the form and you will get a response within hours.</p>
+					</div>
+					<div class="step">
+						<div class="img_border2"><h2>2</h2></div>
+						<div class="vertical"></div>
+						<h2>Sign a Contract</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+					<div class="step">
+						<div class="img_border2"><h2>3</h2></div>
+						<h2>Receive Your Money</h2>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+					</div>
+				</div>
+				<div class="load_after_cont pc t-clear">
+					<div class="loan_after trial"><a>LEAVE LOAN REQUEST</a></div>
+				</div>
+			</section>
+
+			<div class="diagonal2"></div>
+			
+			<section class="wraper bg-raw fbscroll_item cbp-so-scroller" id="map">
+				<div class="small_circle_cont cbp-so-section">
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Journey?</div>
+						<div class="super-circle-small1">
+							<div class="images1"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Hobbies?</div>
+						<div class="super-circle-small1">
+							<div class="images2"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Hobbies?</div>
+						<div class="super-circle-small1">
+							<div class="images3"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Your dream house?</div>
+						<div class="super-circle-small1">
+							<div class="images4"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Some repair?</div>
+						<div class="super-circle-small1">
+							<div class="images5"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Hobbies?</div>
+						<div class="super-circle-small1">
+							<div class="images6"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Your dream car?</div>
+						<div class="super-circle-small1">
+							<div class="images7"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Buy new electronics?</div>
+						<div class="super-circle-small1">
+							<div class="images8"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Need new devices?</div>
+						<div class="super-circle-small1">
+							<div class="images9"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+					<div class="super-circle-small cbp-so-side cbp-so-side-bottom">
+						<div class="super-circle-content">Need money?</div>
+						<div class="super-circle-small1">
+							<div class="images10"></div>
+						</div>
+						<div class="super-circle-small2">
+						</div>
+					</div>
+				</div>
+				<div class="cbp-so-section">
+					<h1 class="super-puper-mega-h cbp-so-side cbp-so-side-top"><br>WE ARE INTERESTED IN <span>LONG-TERM</span><br>COOPERATION!</h1>
+					<div class="middle_logo"></div>
+				</div>
+				<div class="address3 mobile">
+					<h3>Call Now to Speak with an Agent</h3>
+					<h1><span>888-585-2727</span></h1>
+				</div>
+				<div class="map_container">
+					<img src="img/line.png" alt="">
+					<iframe src="https://maps.google.com/?ie=UTF8&amp;ll=52.24462,14.067993&amp;spn=0.491896,1.352692&amp;t=m&amp;z=10&amp;output=embed"></iframe>
+					<div class="map-mask"></div>
+					<div class="location"></div>
+				</div>
+				<div class="address_cont cbp-so-section">
+					<div class="address1 cbp-so-side cbp-so-side-top">
+						<h3>Street Address</h3>
+						<p>Envato PO Box 21177<br>Little Lonsdale St, Melbourne <br>Victoria 8011 Australia</p>
+					</div>
+					<div class="address2 cbp-so-side cbp-so-side-top">
+						<h3>Postal Address</h3>
+						<p>Envato PO Box 21177<br>Little Lonsdale St, Melbourne <br>Victoria 8011 Australia</p>
+					</div>
+					<div class="address3 pc cbp-so-side cbp-so-side-top">
+						<h3>Call Now to Speak with an Agent</h3>
+						<h1><span>888-585-2727</span></h1>
+					</div>
+				</div>
+			</section>
+
+			<footer class="wraper">
+				<section class="head-els footer">
+					<div class="logo" onclick="$('.menu li a').first().click();">
+						<img src="img/logo.png" alt="">
+						quickloan
+					</div>
+					<ul class="menu js-menu footer h-pc">
+					   <li style="display: none;"><a href="#intro" class="selected">intro</a></li>
+						<li><a href="#intro">home</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#get">how to get / return</a></li>
+						<li><a href="#loan">get a loan</a></li>
+						<li><a href="#map">contacts</a></li>
+					</ul>
+					
+					<div style="clear: both;"></div>
+				</section>
+			</footer>
+		</div>
+		
+		<!-- PLUGINS -->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- sliding between sections -->
+		<script src="js/scroll2.js"></script>
+		<!-- smooth page scrolling -->
+		<script src="js/niceScroll.js"></script>
+		<script src="js/cbpScroller.js"></script>
+		<!-- initializing scripts -->
+		<script src="js/init.js"></script>
+		<!-- counters -->
+		<script src="js/jquery.counters.js"></script>
+		<!-- mobile slider -->
+		<script src="js/jquery.slider.min.js"></script>
+	</body>
+</html>

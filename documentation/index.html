@@ -1,0 +1,133 @@
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;QuickLoan - Responsive HTML One Page Template v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">QuickLoan - Responsive HTML One Page Template
+</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 14/Feb/2014<br>
+					By: pixeful<br>
+					Email: <a href="mailto:trafficosbiz@gmail.com">trafficosbiz@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/pixeful">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+		  <li><a href="#htmlStructure">HTML Structure</a></li>
+          <li><a href="#cssFiles">CSS Files and Structure</a></li>
+          <li><a href="#javascript">JavaScript</a></li>
+          <li><a href="#psdFiles">PSD Files</a></li>
+          <li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+	 
+		
+		<hr>
+        <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        </strong>
+      <p>To change countdown numbers, simply go to Index.html</p>
+      <pre>&lt;div class=&quot;counters cbp-so-side cbp-so-side-bottom&quot; id=&quot;counter-1&quot; data-countto=&quot;2&quot;&gt;0&lt;/div&gt;</pre>
+      <p>change data-countto to numbers you need</p>
+      <p>To change Google Maps in contacts section, go to index.html</p>
+      <pre>&lt;iframe  src=&quot;https://maps.google.com/?ie=UTF8&amp;amp;ll=52.24462,14.067993&amp;a
+mp;spn=0.491896,1.352692&amp;amp;t=m&amp;amp;z=10&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;</pre>
+      <p>and change link to the one you have in google maps SEND options. You can use coodrinatates or direct adress link. Depends what adress yo have</p>
+      <p>to change video from top play button, go to index.html</p>
+      <pre>&lt;a class=&quot;voverlay&quot; href=&quot;http://www.youtube.com/v/qb1xc1RjrxQ?autoplay=1
+&amp;amp;rel=0&amp;amp;enablejsapi=1&amp;amp;playerapiid=ytplayer&quot;&gt;</pre>
+      <p>and again change ID to the one you need.</p>
+      <p>to change data for loan calculator:</p>
+      <pre>&lt;input class=&quot;input-amount&quot; type=&quot;text&quot; value=&quot;&quot; data-maxval=&quot;400&quot; 
+data-valstep=&quot;50&quot; data-round=&quot;10&quot;&gt;
+ data-maxval=&quot;400&quot;&gt;</pre>
+      <p>Change data-maxval to the one you actually needed.</p>
+      <hr>
+<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+<p>I'm using thre important CSS files in this theme. The first one (index.css) contains all basic css styles.Rest Css is for responsive version and IE compability.<strong> Probably CSS should not be edited. </strong></p>
+<p>To change background  go to:</p>
+<pre>.wraper.bg-raw {</pre>
+<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+<hr>
+<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+<p>This theme imports two Javascript files.</p>
+<ol>
+  <li>jQuery</li>
+  <li>jQuery UI</li>
+  <li>jQuery.counters.js</li>
+  <li>SlidesJS</li>
+  <li>MapsJS</li>
+  <li>niceScroll</li>
+  <li>site specific scripts</li>
+</ol>
+<ol>
+  <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+  <li>jQuery UI enhances previous library with additional effects.</li>
+  <li>jQuery.counters.js </li>
+  <li>SlideJS is used to create slider effect for images. It is called in site specific scripts file (js/site.js), like this:</li>
+</ol>
+TO Change video in Video version background go to init.js
+<pre> $(function() {
+ $('body').tubular({videoId: '9d8wWcJLnFI'}); 
+ });</pre>
+<p>In to videoId put your Video Youtube ID</p>
+<h3><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+      <p>I've included one PSD file with this folders inside:</p>
+      <ol>
+          <li>Footer - basic copyright and subscribe form</li>
+          <li>Navigation - menu and logo </li>
+          <li>Services - what company offer shortly</li>
+          <li>About - short intro text about company</li>
+          <li>Customers - some client feedback</li>
+          <li>Main slider - basic loan calculator</li>
+          <li>Contacts - loan contact field</li>
+        </ol>
+        <p>If you'd like to change the main background, open &quot;set backgrounds&quot;, make the necessary adjustments, and then save the file. Do the same for the subscribe filed &amp; header text.        </p>
+        <hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		<ul>
+          <li>Font used in this template is Montserrat from a Google Server:<br>
+            https://developers.google.com/webfonts/ </li>
+          <li>icons from http://www.pixeden.com</li>
+		</ul>
+	  <hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>pixeful</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

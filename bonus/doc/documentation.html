@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dev</title>
+    <meta robots="noindex,nofollow"/>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style type="text/css">
+      #bubbler-demo{
+        width:100%;
+        height:300px;
+        margin:10px 0;
+        border-radius:10px;
+      }
+      h2,h3,pre{
+        margin-bottom:20px;
+      }
+      b{
+         color: #f00;
+      }
+      pre{
+        padding-bottom:0px;
+      }
+    </style>
+  </head>
+<body>
+  <div class="span7 offset4" style="margin-top:50px;">
+    <h2>jQuery Bubbler.js plugin</h2>
+
+    <p>jQuery Bubbler.js is a plugin for jQuery to apply a floating bubble effect on DOM elements</p>
+
+    <div id="bubbler-demo"></div>
+
+    <h3>Usage</h3>
+
+    <p><strong>1.</strong> Copy the files <tt>jquery.bubbler.js</tt> to your project. Paste the following code right before the closing  tag in your HTML document. Make sure these lines are <strong>below</strong> the line where you include jQuery. Change the <b>red</b> parts to reflect your situation.</p>
+
+    <pre>
+      &lt;script src="<b>path/to/</b>jquery.bubbler.js"&gt;&lt;/script&gt;
+    </pre>
+
+    <p><strong>2.</strong> The plugin will work on any DOM element. Use <tt>$(".ClassName")</tt> to apply it to an element with a class name or <tt>$("#elementID")</tt> with and ID. Or just create a new one like:</p>
+
+    <pre>
+      &lt;div id=&quot;bubbles&quot;&gt;&lt;/div&gt;
+    </pre>
+
+    <p><strong>3.</strong> Apply css style to the element for width and height:</p>
+    <pre>
+      #bubbles{
+        width:200px;
+        height:200px;
+      }
+    </pre>
+
+    <p><strong>4.</strong> Apply the following code to start the bubbler plugin:</p>
+
+    <pre><code>
+      $(&quot;<b>#bubbles</b>&quot;).bubbler({
+        color: &quot;#adadad&quot;,  //color of the bubbles. Shading will be automatically 
+        ammount: 20,  // bubble count
+        min: .1,      // Minimal size of the bubble in percentage (greater than zero, less than 1)
+        max: .4,      // Maximal size of the bubble in percentage
+        time: 10,     // Bubble move time (greater is slower)
+        vertical:true,  // Move the bubbles vertically
+        horizontal:true  // Move the bubbles horizontally
+      });
+    </code></pre>
+Thank you for purchasing my script. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!<br><br>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="js/bubbler.jquery.js"></script>
+  <script>
+    $("#bubbler-demo").bubbler({
+        color: "#adadad",
+        ammount: 20,
+        min: .1,
+        max: .4,
+        time: 10,
+        vertical:true,
+        horizontal:true,
+        style: 'circle'
+    });
+  </script>
+</body>

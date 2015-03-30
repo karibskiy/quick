@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Bubbler.js</title>
+	<link rel="stylesheet" href="css/demo.css" type="text/css"/>
+</head>
+<body>
+	<div id="bubbles"></div>
+
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/bubbler.jquery.js"></script>
+
+
+	<script>
+		$("#bubbles").bubbler({
+			color: "#1D2833",
+	        ammount: 20,
+	        min: .1,
+	        max: .4,
+	        time: 60,
+	        vertical:true,
+	        horizontal:true,
+	        style: 'circle'
+		});
+	</script>
+</body>
+</html>
